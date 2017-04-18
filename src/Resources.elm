@@ -10,11 +10,14 @@ type alias Resource =
 
 resources : List Resource
 resources =
-    [ { url = "https://google.com"
-      , dsc = "Awesome site, really great."
+    [ { url = "https://dennisreimann.de/articles/elm-data-structures-record-tuple.html"
+      , dsc = "Elm Data Structures (2) - Records and Tuples"
       }
     , { url = "https://stackoverflow.com"
       , dsc = "Another real gem."
+      }
+    , { url = "https://dennisreimann.de/articles/elm.html"
+      , dsc = "Elm Articles by Dennis Reimann. λλλλ"
       }
     ]
 
